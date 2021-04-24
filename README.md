@@ -28,7 +28,7 @@
 
 ### A sample command to run Go_Propagation is as follows:
 ```
-python main.py --inputFile ProtBench_Benchmark2_EnsemblOrthology_Swiss-Prot_annotations_nonpropagated_20210211.txt --seperator tab --geneColumn 1 --goColumn 4
+python main.py --inputFile sample_input.txt --seperator tab --geneColumn 1 --goColumn 4
 
 ```
 
