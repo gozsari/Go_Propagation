@@ -12,7 +12,7 @@
 * Clone the Git Repository
 
 ### Downloading go_basic.obo !!!
-* Due to the periodic updating of the GO term hierarchy, **go_basic.obo** must be downloaded from [here](**http://current.geneontology.org/ontology/go-basic.obo**) into the Go_Propagation folder to have the latest version of the GO term hierarchy
+* Due to the periodic updating of the GO term hierarchy, **go_basic.obo** must be downloaded from [here](http://current.geneontology.org/ontology/go-basic.obo) into the Go_Propagation folder to have the latest version of the GO term hierarchy
 
 ### Input file 
 * The input file must be located under **input_folder**.
