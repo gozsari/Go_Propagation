@@ -22,7 +22,7 @@
 
 ### Explanation of Parameters
 * **--inputFile**: gene/protein GO annotation file containing gene/protein ids and go_terms, input file extension should be: **.txt** or **.csv**
-* **--seperator**: seperator of input file columns, default it is **space**, other options can be **tab** or **commo**'  
+* **--seperator**: seperator of input file columns, default it is **space**, other options can be **tab** or **commo**' 
 * **--geneColumn**: gene/protein id/accession column number (integer) in the input file, starting index = 0
 * **--goColumn**: go term id column number (integer) in the input file, starting index = 0
 
