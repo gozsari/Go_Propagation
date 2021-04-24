@@ -18,7 +18,7 @@
 * The input file must be located under **input_folder**.
 * It must be in either a txt or cvs format
 * The colums of input file muust be seperated with either space, tab or commo.
-* First line of input file is assumed to be identification line for each column
+* **First line of input file is assumed to be identification line for each column!**
 
 ### Explanation of Parameters
 * **--inputFile**: gene/protein GO annotation file containing gene/protein ids and go_terms, input file extension should be: **.txt** or **.csv**
