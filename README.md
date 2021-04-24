@@ -27,7 +27,7 @@
 * **--goColumn**: go term column number(integer) in the input file, starting index = 0
 ### A sample command to run Go_Propagation is as follows:
 ```
-main.py --inputFile ProtBench_Benchmark2_EnsemblOrthology_Swiss-Prot_annotations_nonpropagated_20210211.txt --seperator tab --geneColumn 1 --goColumn 4
+python main.py --inputFile ProtBench_Benchmark2_EnsemblOrthology_Swiss-Prot_annotations_nonpropagated_20210211.txt --seperator tab --geneColumn 1 --goColumn 4
 
 ```
 ### Output file
