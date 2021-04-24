@@ -5,30 +5,33 @@
 
 ## Installation
 
-
-
 ## How to run Go_Propagation to obtain the propogation results 
 
 ## Preparation to run Go_Propagation
 
 * Clone the Git Repository
 
-### Input file 
+### Downloading go_basic.obo !!!
+* Due to the periodic updating of the GO term hierarchy, **go_basic.obo** must be downloaded from **http://current.geneontology.org/ontology/go-basic.obo** into the Go_Propagation folder to have the latest version of the GO term hierarchy
 
-* The input file must be located under **input_folder.
+### Input file 
+* The input file must be located under **input_folder**.
 * It must be in either a txt or cvs format
 * The colums of input file muust be seperated with either space, tab or commo.
 * First line of input file is assumed to be identification line for each column
+
 ### Explanation of Parameters
-* **--inputFile**: protein and go_terms input_file_name, input file name should be written with extension such as **.txt, .csv**
+* **--inputFile**: gene/protein GO annotation file containing gene/protein ids and go_terms, input file extension should be: **.txt** or **.csv**
 * **--seperator**: seperator of input file columns, default it is **space**, other options can be **tab** or **commo**'  
-* **--geneColumn**: gene/protein column number(integer) in the input file, starting index = 0
-* **--goColumn**: go term column number(integer) in the input file, starting index = 0
+* **--geneColumn**: gene/protein id/accession column number (integer) in the input file, starting index = 0
+* **--goColumn**: go term id column number (integer) in the input file, starting index = 0
+
 ### A sample command to run Go_Propagation is as follows:
 ```
 python main.py --inputFile ProtBench_Benchmark2_EnsemblOrthology_Swiss-Prot_annotations_nonpropagated_20210211.txt --seperator tab --geneColumn 1 --goColumn 4
 
 ```
+
 ### Output file
 
 * The results will be located under **output_folder** with the name: **input_file_name.csv**
