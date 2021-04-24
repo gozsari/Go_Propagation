@@ -1,6 +1,5 @@
 # Go_Propagation
- This repository is created to propagate go terms with respect to go hierarchy defined in **go_basic.obo** file by using **is_a** and **part_of** realtions
-
+ This repository is created to propagate go terms with respect to go hierarchy defined in **go_basic.obo** file by using **is_a** and **part_of** relations.
 * The following figure shows a sample of Go term hierarchy
 ![alt text](https://github.com/gozsari/Go_Propagation/blob/main/images/sample_go.PNG)
 
